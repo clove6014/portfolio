@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+body {
+    font-size: 14pt;
+    background-image: url(bokeh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	}
+img {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    float: right;
+}
+
+.floatleft {
+	float: left;
+}
+
+article {
+    margin-bottom: 50px;
+}
+h1 {
+    color: #6BE7FE;
+	font-family: politica,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 24pt;
+}
+p {
+	font-family: canada-type-gibson,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+h3 {
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#container{
+	width: 768px;
+	height: auto;
+	background-color: rgba(255,255,255,1.00);
+	margin: auto;
+}
+/*Float the Aside so it displays next to the Main.*/
+aside {
+    width: 150px;
+    height: 1200px;
+    float: left;
+    background-color: #676767;
+}
+
+header {
+    width: 768px;
+    height: 250px;
+    background-color: #008000;
+    background-image: url(lens_logo.jpg);
+}
+
+/*Float the main so it shows up next to the Aside. Reduce width by 150px so they both line header.*/
+main {
+    width: 598px;
+    height: 1200px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+/*Clear the float so the footer shows up in the right place again.*/
+footer {
+    width: 768px;
+    height: 50px;
+    background-color: orange;
+    clear: both;
+}
+nav {
+    width: 768px;
+    height: 50px;
+}
+#container nav li {
+    display: block;
+    float: left;
+    margin: 0px 60px 0px 0px;
+    width: 80px;
+	font-family: neonoir, sans-serif;
+	font-size: 18pt;
+}
+#container nav ul {
+    margin: auto;
+    width: 565px;
+}
+
+nav a:link {
+    color: #65EBFB;
+	padding: 10px;
+    text-decoration: none;
+}
+nav a:visited {
+    text-decoration: none;
+    color: #5F2575;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+	background-color: #65EBFB;
+	padding: 10px;
+	border-radius: 20px;
+}
+nav a:active {
+    text-decoration: none;
+    color: #191919;
+}
